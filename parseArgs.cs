@@ -67,6 +67,7 @@ function defaultParseArgs()
          $userDirs = $defaultGame SPC "core";
          //XXTH $dirCount = 1;
          $isDedicated = true;
+         echo("Starting as DEDICATED.");
       }
 
       switch$ ($arg)

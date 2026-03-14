@@ -5,6 +5,7 @@ $Pref::Video::ProfilePath = "core/profile";
 
 function createCanvas(%windowTitle)
 {
+   dEcho("running createCanvas " SPC %windowTitle);
    if ($isDedicated)
    {
       GFXInit::createNullDevice();
